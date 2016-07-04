@@ -40,4 +40,5 @@ def test_calls_decorator():
     print [fib(i) for i in range(1,6)]
     print fib.pro_time # all calls counted.
 
+
 test_calls_decorator()
